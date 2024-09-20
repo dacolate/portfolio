@@ -8,13 +8,13 @@ const Home = () => {
   return (
     <section className="h-full">
        <div className="container mx-auto h-full">
-        <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
+        <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-1 xl:pb-10">
           <div className="text-center xl:text-left order-2 xl:order-none mt-[30px] xl:mt-0">
             <span className="text-xl">Web Developer</span>
-            <h1 className="h1 mb-6"> 
+            <h1 className="h1 mb-3"> 
               Hello I'm <br /><span className="text-accent">Darel Noutsa</span>
             </h1>
-            <p className="max-w-[500px] mb-9 text-white/80">
+            <p className="max-w-[500px] mb-4 text-white/80">
               I excel at developing engaging and efficient web solutions, utilizing my expertise in multiple programming languages and technologies.</p>
           
           <div className="flex flex-col xl:flex-row items-center gap-8">
